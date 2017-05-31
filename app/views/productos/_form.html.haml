@@ -1,0 +1,14 @@
+.container-fluid
+  = simple_form_for(@producto, remote_form_options) do |f|
+    = f.error_notification
+    = f.error :base, :error_method => :to_sentence
+
+    .form-inputs
+      = f.input :codigo
+      = f.input :codigo_proveedor
+      = f.input :proveedor
+      = f.input :importado
+      = f.input :categoria
+
+    .form-actions.col-sm-7.col-sm-offset-5
+      = f.button :submit

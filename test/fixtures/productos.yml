@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  codigo: MyString
+  codigo_proveedor: MyString
+  proveedor: MyString
+  importado: false
+  categoria: 1
+
+two:
+  codigo: MyString
+  codigo_proveedor: MyString
+  proveedor: MyString
+  importado: false
+  categoria: 1

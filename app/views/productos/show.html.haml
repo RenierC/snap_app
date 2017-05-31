@@ -1,0 +1,9 @@
+#content.show
+  %p#notice= notice
+
+  .form-horizontal
+    = show_value 'Codigo', @producto.codigo
+    = show_value 'Codigo proveedor', @producto.codigo_proveedor
+    = show_value 'Proveedor', @producto.proveedor
+    = show_value 'Importado', @producto.importado
+    = show_value 'Categoria', @producto.categoria
